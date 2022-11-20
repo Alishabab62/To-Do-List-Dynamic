@@ -1,77 +1,77 @@
 
  *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: burlywood;
+}
+  .header{
+  height: 30vh;
+  width: 100vw;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
   }
-  body{
-    background-color: burlywood;
+  .header h1{
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
   }
-    .header{
-    height: 30vh;
-    width: 100vw;
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 300px;
-    }
-    .header h1{
-    font-weight: bold;
-    font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-  .input{
-    width: 50%;
-    height: 50px;
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-  }
-  .input input{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    font-size: 2rem;
-    padding-left: 10px;
-  }
-  .input #add{
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
-    margin-left: 30px;
-    font-size: 2em;
-    background-color: aqua;
-    color:coral;
-    cursor: pointer;
-  }
-  
-  #item{
-    width: 50%;
-    margin: auto;
-    border-radius: 15px;
-    list-style-type: none;
-  }
-  #new-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    font-size: 2em;
-    margin-top: 40px;
-    background-color: aquamarine;
-    border-radius: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #btn{
-    border-radius: 15px;
-    background-color: chocolate;
-    font-size: 10px;
-    height: 90%;
-    width: 80px;
-    margin-right: 5px;
-    list-style-type: none;
-    cursor: pointer;
-  }
-  li{
-    margin-left:20px ;
-  }
+.input{
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+.input input{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  font-size: 2rem;
+  padding-left: 10px;
+}
+.input #add{
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  margin-left: 30px;
+  font-size: 2em;
+  background-color: aqua;
+  color:coral;
+  cursor: pointer;
+}
+
+#item{
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  list-style-type: none;
+}
+.new-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: 2em;
+  margin-top: 40px;
+  background-color: aquamarine;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+  border-radius: 15px;
+  background-color: chocolate;
+  font-size: 10px;
+  height: 90%;
+  width: 80px;
+  margin-right: 5px;
+  list-style-type: none;
+  cursor: pointer;
+}
+li{
+  margin-left:20px ;
+}
